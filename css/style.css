@@ -81,8 +81,14 @@ nav a{
   margin:auto;
 }
 
-.gauri-img,.ganesh-img{
-  width:220px;
+.gauri-img{
+    width:220px;
+    align-self:flex-end;
+    margin-bottom:-40px;
+}
+
+.ganesh-img{
+    width:220px;
 }
 
 .hero-center{
