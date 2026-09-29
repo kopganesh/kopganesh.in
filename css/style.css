@@ -89,13 +89,13 @@ nav a{
     max-width:100%;
     height:auto;
     display:block;
-    position:relative;
-    z-index:2;
-    filter:drop-shadow(0 8px 18px rgba(0,0,0,.55));
-}
     align-self:flex-end;
     position:relative;
-    top:45px;
+    z-index:5;
+    margin-bottom:-5px;
+    filter:
+        drop-shadow(0 0 8px rgba(255,190,40,.85))
+        drop-shadow(0 8px 18px rgba(0,0,0,.55));
 }
 
 .ganesh-img{
