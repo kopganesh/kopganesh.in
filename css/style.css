@@ -87,7 +87,7 @@ nav a{
 .gauri-img{
     width:300px;
     align-self:flex-end;
-    margin-bottom:-115px;
+    transform:translateY(35px);
 }
 
 .ganesh-img{
