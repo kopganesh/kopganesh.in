@@ -99,8 +99,13 @@ nav a{
 }
 
 .hero-center h1{
-  font-size:56px;
-  color:#FFD54F;
+    font-size:60px;
+    color:#FFD54F;
+    font-weight:900;
+    text-shadow:
+        0 3px 8px rgba(0,0,0,.75),
+        0 0 18px rgba(255,213,79,.25);
+    margin:8px 0;
 }
 
 .hero-center h2{
