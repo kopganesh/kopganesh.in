@@ -64,12 +64,15 @@ nav a{
 }
 
 .hero-banner{
-  background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
-              url("../images/kolhapur-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding: 50px 0;
+    position:relative;
+    background:
+        linear-gradient(90deg, rgba(0,0,0,.58), rgba(0,0,0,.20), rgba(0,0,0,.45)),
+        url("../images/kolhapur-bg.jpg");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    padding:65px 0 35px;
+    overflow:hidden;
 }
 
 .hero-overlay{
