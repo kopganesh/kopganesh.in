@@ -85,7 +85,14 @@ nav a{
 }
 
 .gauri-img{
-    width:300px;
+    width:430px;
+    max-width:100%;
+    height:auto;
+    display:block;
+    position:relative;
+    z-index:2;
+    filter:drop-shadow(0 8px 18px rgba(0,0,0,.55));
+}
     align-self:flex-end;
     position:relative;
     top:45px;
@@ -423,7 +430,7 @@ nav a{
    GAURI - LEFT
    ========================= */
 
-.hero-left{
+align-items:flex-end;
     position:relative;
     height:100%;
     display:flex;
