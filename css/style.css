@@ -480,29 +480,36 @@ align-items:flex-end;
 
 .gauri-bubble{
     position:absolute;
+    left:175px;
+    top:25px;
 
-    left:190px;
-    top:35px;
-
-    width:190px;
-    padding:16px 20px;
+    width:205px;
+    padding:18px 22px;
 
     background:#fff;
-    color:#222;
+    color:#173B73;
 
-    border-radius:25px 25px 25px 6px;
+    border:3px solid #FFD54F;
+    border-radius:50% 50% 50% 12%;
 
     text-align:center;
-    font-size:17px;
-    line-height:1.5;
+    font-size:18px;
+    line-height:1.45;
     font-weight:600;
 
     box-shadow:
+        0 0 12px rgba(255,210,70,.75),
         0 8px 25px rgba(0,0,0,.30);
 
-    border:3px solid #FFD54F;
-
     z-index:10;
+}
+
+.gauri-bubble span{
+    display:block;
+    color:#E53935;
+    font-size:28px;
+    font-weight:800;
+    margin-bottom:5px;
 }
 
 
